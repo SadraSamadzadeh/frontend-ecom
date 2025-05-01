@@ -12,12 +12,12 @@ export const Routing = () => {
     return (
         <BrowserRouter>
         <Routes>
-            <Route path="/" element={<Layout />} >
+        <Route path="/" element={<Layout />} >
             <Route index element={<Home />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/contact" element={<Contact />} />
-            </Route>
+            <Route path="products" element={<Products />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+        </Route>
         </Routes>
         </BrowserRouter>
     )
