@@ -9,7 +9,7 @@ const Navbar = () => {
      if (param.pathname == '/') {
       if (item == 'Home') return true;
      }
-     return param.pathname.split('/')[1] == item;
+     return param.pathname.split('/')[1] == item.toLowerCase();
    }
    const navbarItems = ["Home", "Products", "About", "Contact"]
   return (
