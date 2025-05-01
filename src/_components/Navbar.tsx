@@ -19,7 +19,7 @@ const Navbar = () => {
       </Icon>
       <NavItems>
          {navbarItems.map((item, index) => (
-            <Item active={isActive(item)} href={item == 'Home' ? "/" : item} key={index}>
+            <Item active={isActive(item)} href={item == 'Home' ? "/" : item.toLowerCase()} key={index}>
                {item}
             </Item>
          ))}

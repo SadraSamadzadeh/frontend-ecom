@@ -17,7 +17,6 @@ export const Routing = () => {
             <Route path="products" element={<Products />} />
             <Route path="about" element={<About />} />
             <Route path="contact" element={<Contact />} />
-
             </Route>
         </Routes>
         </BrowserRouter>
