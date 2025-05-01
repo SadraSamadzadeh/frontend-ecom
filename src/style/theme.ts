@@ -3,17 +3,13 @@
 
 export const theme = {
 	colors: {
-		backgroundLighter: '0F172B',
-		primary: '#020618',
-		primaryLighter: '#314158',
-		primaryLight: '#163355',
-		background: '#020618',
-		textPrimary: '90A1B9',
-		white: '#F8FAFC',	
-		purple: '#615FFF',
-		green: '#00D5BE',
-		pink: '#FFA1AD',
-		highlight: '#FFB86A'
+		dark08: '#141414',
+		dark10: '#1A1A1A',
+		dark20: '#333333',
+		absoulteWhite: "#FFFFFF",
+		gray50: '#7E7E81',
+		secondary: '#4E1FB3',
+		secondaryDarker: '#370F7A'
 
 	},
 	styles: { // style
