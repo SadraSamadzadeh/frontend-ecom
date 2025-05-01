@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 import { theme } from '../style/theme'
-import { useState } from 'react';
 import { useLocation } from 'react-router';
 
 const Navbar = () => {
