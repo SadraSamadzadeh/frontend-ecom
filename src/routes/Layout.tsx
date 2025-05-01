@@ -1,12 +1,18 @@
 import styled from 'styled-components'
-import Home from './home'
 import Navbar from '../_components/Navbar'
+import Home from './home'
+import Products from './Products'
+import { About } from './About'
+import Contact from './Contact'
 
 const Layout = () => {
   return (
     <MainContainer>
       <Navbar />
       <Home />
+      <Products />
+      <About />
+      <Contact />
     </MainContainer>
   )
 }

@@ -51,7 +51,7 @@ const Item = styled.a<{active? : boolean}>`
    background-color: ${({active}) => (active ? theme.colors.dark08: '')}
 
 `
-const Login = styled.button`
+export const Login = styled.button`
    padding: 14px 24px 14px 24px;
    border-radius: 10px;
    background-color: ${p => p.theme.colors.secondary};
